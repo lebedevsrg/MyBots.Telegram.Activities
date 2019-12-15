@@ -1,4 +1,3 @@
-
 IF EXIST "$(ProjectDir)$(OutDir)*.nupkg" del "$(ProjectDir)$(OutDir)*.nupkg"
 nuget.exe pack "$(ProjectPath)"
 IF EXIST "$(ProjectDir)$(OutDir)*.nupkg" xcopy /Y "$(ProjectDir)$(OutDir)*.nupkg" "C:\ProgramData\UiPath\Packages\"
