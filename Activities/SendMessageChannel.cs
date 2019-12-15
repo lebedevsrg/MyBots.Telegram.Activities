@@ -11,8 +11,8 @@ using ServiceNow;
 
 namespace Telegram
 {
-    [DisplayName("Send Message")]
-    [Description("Sends message from Telegram Bot to user or group")]
+    [DisplayName("Send Message to Channel")]
+    [Description("Sends message from Telegram Bot to user or group by nickname")]
     public sealed class SendMessageChannel : CodeActivity
     {
 

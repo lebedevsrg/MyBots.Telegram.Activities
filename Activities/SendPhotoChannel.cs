@@ -17,8 +17,8 @@ using System.Linq;
 
 namespace Telegram
 {
-    [DisplayName("Send Image")]
-    [Description("Sends Image from Telegram Bot to user or group")]
+    [DisplayName("Send Image to Channel")]
+    [Description("Sends Image from Telegram Bot to user or group by nickname")]
     public sealed class SendPhotoChannel : CodeActivity
     {
         // Define an activity input argument of type string

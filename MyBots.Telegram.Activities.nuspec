@@ -7,13 +7,13 @@
     <authors>S. Lebedev (lebedev.srg.alx@gmail.com)</authors> 
     <owners>$author$</owners>
     <licenseUrl>https://choosealicense.com/licenses/mit/</licenseUrl>
-    <projectUrl>https://github.com/lebedevsrg/UiPath.Telegram.Activities/</projectUrl>
+    <projectUrl>https://github.com/lebedevsrg/MyBots.Telegram.Activities/</projectUrl>
     <iconUrl>http://www.uipath.com/hubfs/Logos/uipath-nuget-logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Telegram Activities package for UiPath</description>
     <releaseNotes>Telegram Activities package for UiPath</releaseNotes>
     <copyright>Copyright S.Lebedev 2019</copyright>
-    <tags>UIpath,Telegram,Activity</tags>
+    <tags>UIpath, Telegram, Activities</tags>
   </metadata>
   <files>
     <file src="bin\Release\Newtonsoft.Json.dll" target="lib\net461\Newtonsoft.Json.dll" />
