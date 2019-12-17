@@ -26,7 +26,7 @@ namespace Telegram
         [DisplayName("Channel Name")]
         [RequiredArgument]
         [Description("Enter name of the Channel to which bot sends the image")]
-        public InArgument<Int64> Chat_ID { get; set; }
+        public InArgument<string> Chat_Name { get; set; }
 
         // Define an activity input argument of type string
         [Category("Input")]
@@ -62,7 +62,7 @@ namespace Telegram
             if (photopath == null)
                 throw new ArgumentException("Photo Path missing");
 
-            var chatID_str = Chat_ID.Get(context);
+            var chatID_str = Chat_Name.Get(context);
 
 
             if (chatID_str == null)

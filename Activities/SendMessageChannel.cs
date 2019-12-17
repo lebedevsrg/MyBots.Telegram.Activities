@@ -21,7 +21,7 @@ namespace Telegram
         [DisplayName("Channel Name")]
         [RequiredArgument]
         [Description("Enter Name of the Channel to which bot sends message")]
-        public InArgument<string> Chat_ID { get; set; }
+        public InArgument<string> Chat_Name { get; set; }
 
         // Define an activity input argument of type string
         [Category("Input")]
@@ -52,7 +52,7 @@ namespace Telegram
             if(messageText == null)
                 throw new ArgumentException("Message text input is missing");
 
-            var chatID_str = Chat_ID.Get(context);
+            var chatID_str = Chat_Name.Get(context);
 
   
             if (chatID_str == null)
